@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background: #0a0a23;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+  padding: 2rem;
+}
+
+.logo {
+  width: 150px;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.launch-date {
+  font-size: 1.5rem;
+  color: #00ffc8;
+}
+
+.email-form {
+  margin-top: 2rem;
+}
+
+.email-form input {
+  padding: 0.8rem;
+  width: 250px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 1rem;
+}
+
+.email-form button {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  background-color: #00ffc8;
+  color: #0a0a23;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 3rem;
+  font-size: 0.9rem;
+}
